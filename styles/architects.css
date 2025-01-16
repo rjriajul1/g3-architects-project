@@ -40,6 +40,9 @@
     padding: 20px 25px;
 
 }
+main , section{
+    margin-top: 50px;
+}
 
 /* shared style end here */
 
@@ -56,7 +59,7 @@
 
 }
 .navbar, .banner{
-    max-width:1140px ;
+    max-width:1440px ;
     margin: 0 auto;
    
 }
@@ -126,14 +129,44 @@
 
 /* haeder style end here */
 
+/* main section style start here */
+
+.teams{
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+    max-width: 537px;
+    margin-left: 73px;
+}
+
+.our-features-title{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* main section style end here */
+
 
 /* responsive for small device start here*/
 
 @media screen and (max-width:576px) {
     
-    .navbar{
+    .navbar, .teams{
         flex-direction: column;
     }
+
+    /* header section responsive start here */
 
     .banner-content{
         width: 100%;
@@ -159,6 +192,49 @@
     .banner-content{
         margin-top: 50px;
     }
+
+    /* header section responsive end here */
+
+
+
+    /* main section responsive start here */
+
+
+
+
+
+    /* teams section responsive start here */
+     
+    .team-img-container {
+
+        grid-template-columns: repeat(1,1fr);
+       
+
+    }
+
+    .team-img-container, img{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .our-features-title{
+        font-size: 2rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .our-features{
+        width: 85%;
+        margin: 0;
+    }
+
+
+    /* teams section responsive start here */
+
+
+
+
+
+
+    /* main section responsive end here */
 
 
 }
