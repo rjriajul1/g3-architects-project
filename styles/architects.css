@@ -11,3 +11,157 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styel start  here */
+
+.display-flex{
+    display: flex;
+}
+
+.bg-lighter{
+    background-color:  #ff8f0e25;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-1{
+    color: #131313;
+}
+.dark-3{
+    color: #727272;
+}
+.btn-primary{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+
+}
+
+/* shared style end here */
+
+
+
+/* header style start here */
+
+
+/* navbar style start here */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar, .banner{
+    max-width:1140px ;
+    margin: 0 auto;
+   
+}
+
+.brand{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+.nav-links{
+
+    margin-top: 63px  ;
+
+}
+.item{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    /* margin-right: 20px; */
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 500;
+
+}
+
+/* navbar style end here */
+
+
+
+/* banner style start here */
+.banner-content{
+     width: 862px;
+     margin: 0 auto;
+    text-align: center;
+    margin-bottom:  50px ;
+    margin-top: 100px;
+   
+   
+    
+
+}
+
+.banner-title{
+    /* text-align: center; */
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+.banner-img{
+    /* margin:0 240px 0 240px; */
+    width: 100%;
+    
+}
+
+
+/* banner style end here */
+
+
+
+/* haeder style end here */
+
+
+/* responsive for small device start here*/
+
+@media screen and (max-width:576px) {
+    
+    .navbar{
+        flex-direction: column;
+    }
+
+    .banner-content{
+        width: 100%;
+        /* margin: 0 auto; */
+       text-align: center;
+       margin-bottom:  50px ;
+       margin-top: 100px;
+   }
+
+   .banner-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+    .btn-primary{
+        font-size: 1rem;
+        padding: 15px 20px;
+    
+    }
+    .nav-links {
+        margin-top: 40px;
+    }
+    .banner-content{
+        margin-top: 50px;
+    }
+
+
+}
+
+
+/* responsive for small device end here */
