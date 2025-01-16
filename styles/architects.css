@@ -43,7 +43,32 @@
 main , section{
     margin-top: 50px;
 }
+.section-title{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+.box-title{
+    font-size: 1.2rem;
+    font-weight: 600;
 
+}
+.box{
+    background-color:#edeaeab6 ;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 7px #fff;
+    max-height:170px ;
+    padding: 20px;
+
+
+}
+.box-title{
+    margin-bottom: 20px;
+}
+.box-description {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 /* shared style end here */
 
 
@@ -129,7 +154,12 @@ main , section{
 
 /* haeder style end here */
 
+
+
 /* main section style start here */
+
+
+/* teams section style start here */
 
 .teams{
     max-width: 1440px;
@@ -147,10 +177,49 @@ main , section{
     margin-left: 73px;
 }
 
-.our-features-title{
-    font-size: 2.8rem;
-    margin-bottom: 20px;
+/* teams section style end here */
+
+
+
+/* features section style start here */
+.features-enjoy{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+    gap: 50px;
+    align-items: center;
 }
+
+.features-content{
+    max-width:586px ;
+    /* max-height: 982px; */
+}
+.features-enjoy-img{
+    max-width: 800px;
+    position: relative;
+}
+.features-enjoy-description{
+    margin-bottom: 30px;
+}
+.exprience{
+    position: absolute;
+    bottom: -6px;
+    left: -30px;
+    width: 150px;
+    background-color: #FF900E;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    
+}
+.year{
+    font-size: 30px;
+}
+
+
+
+/* features section style end here */
 
 
 
@@ -162,7 +231,10 @@ main , section{
 
 @media screen and (max-width:576px) {
     
-    .navbar, .teams{
+    .navbar,
+     .teams,
+     .features-enjoy
+     {
         flex-direction: column;
     }
 
@@ -228,6 +300,28 @@ main , section{
 
 
     /* teams section responsive start here */
+
+
+    /* features enjoy responsive start here */
+     .features-enjoy{
+        padding: 10px;
+        margin-top: 40px;
+        gap: 0;
+     }
+    .features-enjoy-title{
+        font-size: 2rem;
+
+    }
+    .features-enjoy-img img{
+        width: 100%;
+        
+        
+    }
+    .exprience{
+        width: 50%;
+    }
+
+    /* features enjoy responsive end here */
 
 
 
