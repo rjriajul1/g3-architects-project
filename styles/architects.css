@@ -293,6 +293,24 @@ main , section{
 /* our sponspors section style end here */
 
 
+/* footer section start here */
+
+.footer{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+
+/* footer section end here */
+
+
 
 
 /* main section style end here */
@@ -459,6 +477,18 @@ main , section{
 
 
     /* our sopnspors section responsive end here */
+
+
+    /* footer section style responsive start here */
+       
+    .footer{
+        width: 95%;
+        margin-top: 70px ;
+    
+    }
+
+
+    /* footer section style responsive end here */
 
 
 
