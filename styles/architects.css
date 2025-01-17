@@ -46,6 +46,7 @@ main , section{
 .section-title{
     font-size: 2.8rem;
     margin-bottom: 20px;
+    color: #131313;
 }
 .box-title{
     font-size: 1.2rem;
@@ -90,7 +91,7 @@ main , section{
 }
 
 .brand{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     margin-top: 50px;
 
@@ -109,7 +110,7 @@ main , section{
     text-decoration: none;
     /* margin-right: 20px; */
     padding: 10px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 500;
 
 }
@@ -222,6 +223,52 @@ main , section{
 /* features section style end here */
 
 
+/* facts section style start here */
+
+/* .fact-container{
+    max-width: 50%;
+} */
+
+.facts{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    margin-bottom: 200px;
+   
+}
+.facts-description{
+    margin-bottom: 50px;
+}
+
+.facts-container{
+    justify-content: space-around;
+    gap: 40px;
+    
+
+}
+.fact{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    text-align: center;
+    padding: 30px;
+   
+
+
+
+}
+.number{
+    margin-bottom: 10px;
+}
+.fact-icon{
+    margin-bottom: 10px;
+}
+
+
+/* facts section style end here */
+
+
 
 
 /* main section style end here */
@@ -233,8 +280,8 @@ main , section{
     
     .navbar,
      .teams,
-     .features-enjoy
-     {
+     .features-enjoy,
+     .facts-container{
         flex-direction: column;
     }
 
@@ -284,7 +331,7 @@ main , section{
 
     }
 
-    .team-img-container, img{
+    .team-img-container , img{
         width: 95%;
         margin: 0 auto;
     }
@@ -312,16 +359,71 @@ main , section{
         font-size: 2rem;
 
     }
-    .features-enjoy-img img{
+    .features-enjoy-img > img{
         width: 100%;
         
         
     }
+    
     .exprience{
-        width: 50%;
+        position: absolute;
+        bottom: -10px;
+        left: -10px;
+        width: 150px;
+        padding: 15px;
+        
     }
 
     /* features enjoy responsive end here */
+
+
+    /* fact section responsive start here */
+
+    .facts{
+        /* max-width: 100%; */
+        /* margin: 0 auto; */
+        margin: 20px;
+    
+        /* margin-bottom: 200px; */
+       
+    }
+    .facts-container  img{
+        width: 60px;
+    }
+    .fact-container{
+          
+        width: 100%;
+    }
+
+    .facts-container{
+       width: 100%;
+       align-items: center;
+        gap: 20px;
+        /* border: 1px solid tomato; */
+        
+    
+    }
+    .fact{
+         width: 80%;
+        padding: 30px;
+       
+        
+       
+    
+    
+    
+    }
+    
+    
+     
+    
+
+
+
+
+
+
+    /* fact section responsive end here */
 
 
 
