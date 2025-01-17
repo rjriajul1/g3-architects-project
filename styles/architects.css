@@ -270,6 +270,30 @@ main , section{
 
 
 
+/* our sponspores section style start here */
+
+
+.sponspor-banner{
+    max-width:540px ;
+    margin: 50px auto;
+    text-align: center;
+}
+.sopnspors-compaines{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 100px;
+
+}
+.sopnspors-compaines img{
+    filter: grayscale(100%);
+}
+
+/* our sponspors section style end here */
+
+
+
 
 /* main section style end here */
 
@@ -368,8 +392,7 @@ main , section{
     .exprience{
         position: absolute;
         bottom: -10px;
-        left: -10px;
-        width: 150px;
+        left: 0;
         padding: 15px;
         
     }
@@ -407,23 +430,35 @@ main , section{
          width: 80%;
         padding: 30px;
        
-        
-       
-    
-    
-    
     }
-    
-    
-     
-    
-
-
-
-
-
 
     /* fact section responsive end here */
+
+
+
+    /* our sponspors  section responsive start here  */
+
+
+     .sopnspors-compaines{
+        width: 50%;
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+    
+    }
+    .sponspor-banner{
+        width:100% ;
+        margin-top: 50px; 
+        /* text-align: center; */
+        margin-bottom: 30px;
+        text-align: left;
+        padding: 20px;
+    }
+    .sopnspor-title{
+        font-size: 2rem;
+    }
+
+
+    /* our sopnspors section responsive end here */
 
 
 
